@@ -1,33 +1,75 @@
-.container{
+.main-nav {
+  display: flex;
+  background: rgb(121, 120, 136);
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+  font-family:  url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,100 & family= Noto+Sans:ital,wght@1,300 & display=swap');
+  
 
-    display:flex ;
-    justify-content: space-around;
-    
+}
+.main-nav > ul {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex:auto;
+ 
+  
 
 }
 
-.main-nav {
-    display: flex;
-    background: rgb(121, 120, 136);
-    color: white;
-    border-radius: 3px;
-    padding: 10px;
-    font-family:  url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,100 & family= Noto+Sans:ital,wght@1,300 & display=swap');
-    
-
-  }
-  .main-nav > ul {
-    list-style-type:none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex:auto;
-   
-    
+.main-nav li {
+  margin-left: 240px;
  
-  }
+}
+
+
+.flex-container >p {
+  display: flex;
+  flex-basis: auto;
+ 
+  flex-direction: row;
+  background-color: rgb(239, 232, 245);
+  justify-content:flex-end;
+  font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+gap: 15px;
+}
+.contenedor {
+  display:flex
+
+}
+.flexExperiencia {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  background-color: rgb(239, 232, 245);
+flex-grow: 1;
+
+}
+
+.contenedor {
+  display:flex;
+
+}
+.flexformación {
+
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  background-color: rgb(239, 232, 245);
+flex-grow: 1;
   
-  .main-nav li {
-    margin-left: 240px;
-   
-  }
+
+}
+
+.container{
+
+  display:flex ;
+  justify-content: space-around;
+  
+
+}
+
+  
