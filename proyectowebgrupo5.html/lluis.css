@@ -1,3 +1,11 @@
+.container{
+
+    display:flex ;
+    justify-content: space-around;
+    
+
+}
+
 .main-nav {
     display: flex;
     background: rgb(121, 120, 136);
