@@ -5,3 +5,29 @@
     
 
 }
+
+.main-nav {
+    display: flex;
+    background: rgb(121, 120, 136);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    font-family:  url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,100 & family= Noto+Sans:ital,wght@1,300 & display=swap');
+    
+
+  }
+  .main-nav > ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex:auto;
+   
+    
+ 
+  }
+  
+  .main-nav li {
+    margin-left: 240px;
+   
+  }
