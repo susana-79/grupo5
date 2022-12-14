@@ -5,6 +5,7 @@
 .prueba2 {
   display: block;
 }
+/* esto son los stylos de la barra navegación*/
 .main-nav {
     display: flex;
     background: rgb(121, 120, 136);
@@ -12,7 +13,7 @@
     border-radius: 3px;
     padding: 10px;
     font-family:  url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,100 & family= Noto+Sans:ital,wght@1,300 & display=swap');
-    
+    /* estos son los stylos del listado de la barra nav*/
 
   }
   .main-nav > ul {
@@ -35,7 +36,7 @@
    
   }
  
-
+/* esto son los stylos del contenedor - parrafo*/
   .flex-container >p {
     display: flex;
     flex-basis: auto;
@@ -47,7 +48,7 @@
   font-family: Arial, Helvetica, sans-serif;
   gap: 15px;
   }
-
+/* Esto es el stylo del contenedor Experiencia*/
  .flexExperiencia {
     display: flex;
     flex-direction: column;
@@ -55,6 +56,7 @@
     flex-grow: 1;
 
  }
+ /* Esto es el stylo del contenedor Formación*/
 .flexformación {
 
     display: flex;
@@ -67,7 +69,7 @@
 }
 
 
- 
+ /* Estos son los stylos del bloque de fotos */
 .container{
   display:flex;
   justify-content:flex-start;
