@@ -1,3 +1,10 @@
+.body{
+  display: flex;  
+}
+
+.prueba2 {
+  display: block;
+}
 .main-nav {
     display: flex;
     background: rgb(121, 120, 136);
@@ -18,7 +25,11 @@
     
  
   }
-  
+ .contenedor{
+
+  display:flex
+
+ } 
   .main-nav li {
     margin-left: 240px;
    
@@ -36,33 +47,39 @@
   font-family: Arial, Helvetica, sans-serif;
   gap: 15px;
   }
-  .contenedor {
-    display:flex
-  
-  }
+
  .flexExperiencia {
     display: flex;
     flex-direction: column;
-    padding: auto;
     background-color: rgb(239, 232, 245);
-  flex-grow: 1;
+    flex-grow: 1;
 
  }
- 
- .contenedor {
-    display:flex;
-  
-  }
 .flexformación {
 
     display: flex;
     flex-direction: column;
     padding: auto;
     background-color: rgb(239, 232, 245);
-  flex-grow: 1;
+   flex-grow: 1;
     
 
 }
+
+
  
+.container{
+  display:flex;
+  justify-content:flex-start;
   
-    
+}
+
+
+.prueba{
+  display:block;
+}
+
+.prueba3{
+
+  display:block;
+}

@@ -1,11 +1,10 @@
-.container{
-
-    display:flex ;
-    justify-content: space-around;
-    
-
+.body{
+  display: flex;  
 }
 
+.prueba2 {
+  display: block;
+}
 .main-nav {
     display: flex;
     background: rgb(121, 120, 136);
@@ -26,8 +25,61 @@
     
  
   }
-  
+ .contenedor{
+
+  display:flex
+
+ } 
   .main-nav li {
     margin-left: 240px;
    
   }
+ 
+
+  .flex-container >p {
+    display: flex;
+    flex-basis: auto;
+   
+    flex-direction: row;
+    background-color: rgb(239, 232, 245);
+    justify-content:flex-end;
+    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 15px;
+  }
+
+ .flexExperiencia {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 232, 245);
+    flex-grow: 1;
+
+ }
+.flexformación {
+
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: rgb(239, 232, 245);
+   flex-grow: 1;
+    
+
+}
+
+
+ 
+.container{
+  display:flex;
+  justify-content:flex-start;
+  
+}
+
+
+.prueba{
+  display:block;
+}
+
+.prueba3{
+
+  display:block;
+}
