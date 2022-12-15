@@ -10,3 +10,20 @@
     text-align: center;
     background: rgb(121, 120, 136);
   }
+  
+  input:invalid {
+    border: 2px solid rgb(22, 21, 21);
+    background-color:rgb(248, 31, 175);
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-container  {
+    background: rgb(228, 228, 234);
+    margin: 10px;
+    text-align: left;
+    font-size: 12px;
+    gap: 400px;
+  }
+
