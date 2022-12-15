@@ -90,13 +90,13 @@
 .footer {
   padding: 2px;
   text-align: left;
-  background: rgb(121, 120, 136);
+  /* background: rgb(121, 120, 136);*/
   margin-top: 5px;
 }
 .imagen{
 
   text-align: center;
-  background: rgb(121, 120, 136);
+ /* background: rgb(121, 120, 136);*/
 }
 
 input:invalid {
